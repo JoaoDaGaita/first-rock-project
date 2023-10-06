@@ -3,21 +3,23 @@
 @tailwind utilities;
 
 :root {
-  @apply bg-black
+  @apply bg-black;
 }
 
-body, input, textarea, button {
-  @apply antialiased font-roboto font-normal text-base
+* {
+  @apply box-border;
+}
+
+body,
+input,
+textarea,
+button,
+strong {
+  @apply antialiased font-roboto font-normal text-base;
 }
 
 @layer base {
   article + article {
-    @apply mt-8
+    @apply mt-8;
   }
 }
-
-:focus {
-  @apply outline-none shadow-ignite ring-0
-}
-
-

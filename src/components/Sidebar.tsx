@@ -1,10 +1,10 @@
-import { PencilLine } from 'phosphor-react'
+import { PencilLine } from "phosphor-react"
 
 export function Sidebar() {
   return (
-    <aside className="text-zinc-200 bg-[#202024] overflow-hidden rounded-lg">
+    <aside className="text-zinc-200 bg-[#202024]  overflow-hidden rounded-lg">
       <img
-        className="w-full h-20 object-cover"
+        className="w-full h-[72px] object-cover"
         src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
         alt=""
       />
@@ -23,9 +23,12 @@ export function Sidebar() {
         </span>
       </div>
 
-      <footer className="border-t border-t-gray-700 mt-5 pt-6 pb-8 px-8 ">
+      <footer className="border-t border-t-gray-700 mt-6 pt-6 p-8">
         <a
-          className="gap-[10px] text-green-500 px-5 py-0 border rounded-lg h-14 border-solid border-green-500 text-xs not-italic font-bold no-underline leading-normal flex items-center justify-center duration-300 hover:bg-green-500 hover:text-white"
+          className=" w-full gap-[10px] text-green-500 py-0 px-6 border rounded-lg bg-transparent
+          h-12 border-solid border-green-500 text-xs not-italic font-bold
+           no-underline leading-normal flex items-center justify-center duration-300
+            hover:bg-green-500 hover:text-white"
           href=""
         >
           <PencilLine size={20} height={20} />
